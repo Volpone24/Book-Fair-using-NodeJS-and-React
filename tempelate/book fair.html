@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "style.css"/>
+    <meta charset="UTF-8">
+    <title>Book Fair</title>
+    
+</head>
+<body>
+    <div class= "page">
+        <header class="header">
+            <div class="name">
+                <button  onclick="Menu()">
+                    &#x2192;
+                </button>
+                <a href="book fair.html"> Book Fair</a>
+            </div>
+            <div class="left-side">
+                <a href="#">Cart</a>
+                <a href ="#">SignIn</a>
+            </div>
+        </header>
+
+        <!-- Side bar -->
+        <aside class = "sidebar">
+            <h3>Book Categories</h3>
+            <button onclick="Close()">&#10006;</button>
+            <ul>
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Romance</a></li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <div class="details">
+                <ul class="items">
+                    <li>
+                        <div class = "book">
+                            <img class="bookimage"src = "images/kill-a-mocking-bird.jpg" alt = "book 1">
+                            <div class="bookname"><a href="#">To kill a mocking Bird</a></div>
+                            <div class="author">Harper Lee</div>
+                            <div class="cost">$11.65</div>
+                            <div class="rating">Stars: 4.4(12 Reviews)</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "book">
+                            <img class="bookimage"src = "images/kill-a-mocking-bird.jpg" alt = "book 1">
+                            <div class="bookname"><a href="#">To kill a mocking Bird</a></div>
+                            <div class="author">Harper Lee</div>
+                            <div class="cost">$11.65</div>
+                            <div class="rating">Stars: 4.4(12 Reviews)</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "book">
+                            <img class="bookimage"src = "images/kill-a-mocking-bird.jpg" alt = "book 1">
+                            <div class="bookname"><a href="#">To kill a mocking Bird</a></div>
+                            <div class="author">Harper Lee</div>
+                            <div class="cost">$11.65</div>
+                            <div class="rating">Stars: 4.4(12 Reviews)</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "book">
+                            <img class="bookimage"src = "images/kill-a-mocking-bird.jpg" alt = "book 1">
+                            <div class="bookname"><a href="#">To kill a mocking Bird</a></div>
+                            <div class="author">Harper Lee</div>
+                            <div class="cost">$11.65</div>
+                            <div class="rating">Stars: 4.4(12 Reviews)</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "book">
+                            <img class="bookimage"src = "images/kill-a-mocking-bird.jpg" alt = "book 1">
+                            <div class="bookname"><a href="#">To kill a mocking Bird</a></div>
+                            <div class="author">Harper Lee</div>
+                            <div class="cost">$11.65</div>
+                            <div class="rating">Stars: 4.4(12 Reviews)</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "book">
+                            <img class="bookimage"src = "images/kill-a-mocking-bird.jpg" alt = "book 1">
+                            <div class="bookname"><a href="#">To kill a mocking Bird</a></div>
+                            <div class="author">Harper Lee</div>
+                            <div class="cost">$11.65</div>
+                            <div class="rating">Stars: 4.4(12 Reviews)</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "book">
+                            <img class="bookimage"src = "images/kill-a-mocking-bird.jpg" alt = "book 1">
+                            <div class="bookname"><a href="#">To kill a mocking Bird</a></div>
+                            <div class="author">Harper Lee</div>
+                            <div class="cost">$11.65</div>
+                            <div class="rating">Stars: 4.4(12 Reviews)</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "book">
+                            <img class="bookimage"src = "images/kill-a-mocking-bird.jpg" alt = "book 1">
+                            <div class="bookname"><a href="#">To kill a mocking Bird</a></div>
+                            <div class="author">Harper Lee</div>
+                            <div class="cost">$11.65</div>
+                            <div class="rating">Stars: 4.4(12 Reviews)</div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class = "book">
+                            <img class="bookimage"src = "images/kill-a-mocking-bird.jpg" alt = "book 1">
+                            <div class="bookname"><a href="#">To kill a mocking Bird</a></div>
+                            <div class="author">Harper Lee</div>
+                            <div class="cost">$11.65</div>
+                            <div class="rating">Stars: 4.4(12 Reviews)</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        
+    </div>
+
+    <!-- JS -->
+    <script>
+        function Menu(){
+            document.querySelector(".sidebar").classList.add("open");
+        }
+
+        function Close(){
+            document.querySelector(".sidebar").classList.remove("open");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env"
+        ]
+    ]
+}
+
+// Run from terminal and ES6 code
